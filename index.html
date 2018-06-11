@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars RPG Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/javascript/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <h1>Star Wars RPG</h1>
+    <!-- <hr> -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <h2 id="titleLetter">Choose your character</h2>
+            </div>
+            <br>
+            <br>
+            <div class="row".>
+                <div class="card-deck">
+                    <div class="card backstage">
+                        <h5 data-health-points="100" data-base-attack-power="5" data-attack-power="5" data-counter-attack-power="25" class="card-header">Luke Skywalker</h5>
+
+                        <img class="card-img-top img-thumbnail img-responsive characters" src="./assets/images/luke.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">100 Health Points</p>
+                            <a href="#" id="lukeBtn" class="btn btn-primary">Choose</a>
+                        </div>
+                    </div>
+                    <div class="card backstage">
+                        <h5 data-health-points="130" data-base-attack-power="8" data-attack-power="8" data-counter-attack-power="20" class="card-header">Obi-Wan Kenobi</h5>
+                        <img class="card-img-top img-thumbnail img-responsive characters" src="./assets/images/obi.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">120 Health Points</p>
+                            <a href="#" id="obiBtn" class="btn btn-primary">Choose</a>
+                        </div>
+                    </div>
+                    <div class="card backstage">
+                        <h5 data-health-points="150" data-base-attack-power="10" data-attack-power="10" data-counter-attack-power="15" class="card-header">Darth Sidious</h5>
+                        <img class="card-img-top img-thumbnail img-responsive characters" src="./assets/images/darth-s.png" alt="">
+                        <div class="card-body">
+                            <p class="card-text">150 Health Points</p>
+                            <a href="#" id="sidiousBtn" class="btn btn-primary">Choose</a>
+                        </div>
+                    </div>
+                    <div class="card backstage">
+                        <h5 data-health-points="180" data-base-attack-power="15" data-attack-power="15" data-counter-attack-power="10" class="card-header">Darth Maul</h5>
+                        <img class="card-img-top img-thumbnail  img-responsive characters" src="./assets/images/darth-m.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">180 Health Points</p>
+                            <a href="#" id="maulBtn" class="btn btn-primary">Choose</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+
+            <div id="urCharacter">
+                
+            </div>
+            <div id="fightBtnCtnr">
+                <div id="textResultCtnr">
+                    
+
+                </div>
+                
+            </div>
+            <div id="enemyCharacter">
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/javascript/game.js"></script>
+
+</html>

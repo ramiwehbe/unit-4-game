@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/back5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+.characters {
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    padding: 20px;
+    max-width: fit-content;
+    color: Black;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+}
+h6 {
+    font-size: 14px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 36px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#fightBtn{
+    position: relative;
+    top: 50px;
+}
+#urCharacter, #textResultCtnr, #enemyCharacter{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
+   
+}
+#urCharacter .card, #enemyCharacter .card{
+    background-color: brown;
+    color: whitesmoke;
+}
+span{
+    background-color: black;
+    line-height: 25px;
+}
